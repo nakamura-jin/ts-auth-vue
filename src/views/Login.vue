@@ -30,7 +30,7 @@ export default {
         password: this.password
       };
 
-      fetch(`http://localhost:8000/api/login`, {
+      fetch(`https://ts-auth-laravel.herokuapp.com/api/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
